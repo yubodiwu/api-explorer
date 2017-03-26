@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 
 var DataFieldResponse = (props) => {
     return (
-        <div className="data-field-action post">
+        <div className={`data-field-action ${props.verb}`}>
             {props.apiData}
         </div>
     );
@@ -12,6 +12,6 @@ var DataFieldResponse = (props) => {
 export default connect((state) => {
     return {
         url: state.url,
-        apiData: state.apiData
+        api: state.api
     };
 })(DataFieldResponse);

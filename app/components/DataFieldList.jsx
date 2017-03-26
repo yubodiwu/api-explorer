@@ -20,8 +20,10 @@ class DataFieldList extends Component {
                             this.props.dispatch(actions.changeUrl(this.refs.url.value));
                         }}/>
                     </div>
-                    <DataField verb="post"/>
-                    <DataField verb="get"/>
+                    <DataField verb="post" verbText="Add something new"/>
+                    <DataField verb="get" verbText="Look at something"/>
+                    <DataField verb="put" verbText="Change something"/>
+                    <DataField verb="delete" verbText="Get rid of something"/>
                 </div>
             </div>
         );

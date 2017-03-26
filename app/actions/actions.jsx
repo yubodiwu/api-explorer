@@ -1,7 +1,7 @@
 export var changeBody = (body = {}) => {
     return {
         type: "CHANGE_BODY",
-        payload: body
+        payload: body // {parameterName: "parameter name", parameterValue: "parameter value"}
     };
 };
 

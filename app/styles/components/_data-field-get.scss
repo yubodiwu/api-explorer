@@ -42,3 +42,23 @@
     border-left: .1em solid lighten($green, 10%);
     padding: 0.75rem;
 }
+
+.parameters-title-holder.get {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: white;
+    min-height: 4rem;
+    border-right: .1em solid lighten($green, 10%);
+    border-left: .1em solid lighten($green, 10%);
+
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.parameters-title-holder.bottom-border.get {
+    border-bottom: .1em solid lighten($green, 10%);
+    margin-bottom: 1rem;
+}

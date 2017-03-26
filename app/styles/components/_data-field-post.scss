@@ -8,10 +8,6 @@
     display: flex;
     align-items: baseline;
 
-    .btn {
-        background-color: $blue;
-    }
-
     h4, p {
         color: lighten($grey, 20%);
     }
@@ -21,20 +17,28 @@
     }
 }
 
+.btn-post {
+    background-color: $blue;
+}
+
 .data-field.post.clicked {
     border-bottom: .1em solid lighten($blue, 10%);
     margin-bottom: 1rem;
 }
 
-.parameters-title-holder {
+.parameters-title-holder.post {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     background: white;
     min-height: 4rem;
     border-right: .1em solid lighten($blue, 10%);
     border-left: .1em solid lighten($blue, 10%);
+
+    button {
+        margin-left: 1rem;
+    }
 }
 
 .data-field-action.post {
@@ -43,13 +47,4 @@
     border-right: .1em solid lighten($blue, 10%);
     border-left: .1em solid lighten($blue, 10%);
     padding: 0.75rem;
-}
-
-.data-field-action {
-    margin-bottom: 1rem;
-}
-
-.data-field-action.post.api-request-made {
-    margin-bottom: 0rem;
-    border-bottom: 0rem;
 }

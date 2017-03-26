@@ -1,0 +1,63 @@
+.data-field.put {
+    background-color: lighten($yellow, 35%);
+    border-top: .1em solid lighten($yellow, 10%);
+    border-right: .1em solid lighten($yellow, 10%);
+    border-left: .1em solid lighten($yellow, 10%);
+    padding: 0.75rem;
+
+    display: flex;
+    align-items: baseline;
+
+    .btn {
+        background-color: $yellow;
+    }
+
+    h4, p {
+        color: lighten($grey, 20%);
+    }
+
+    * {
+        margin-right: 2rem;
+    }
+}
+
+.data-field.put.clicked {
+    border-bottom: .1em solid lighten($yellow, 10%);
+    margin-bottom: 1rem;
+}
+
+.data-field-action {
+    margin-bottom: 1rem;
+}
+
+.data-field-action.put.api-request-made {
+    margin-bottom: 0rem;
+    border-bottom: 0rem;
+}
+
+.data-field-action.put {
+    background-color: lighten($yellow, 35%);
+    border-bottom: .1em solid lighten($yellow, 10%);
+    border-right: .1em solid lighten($yellow, 10%);
+    border-left: .1em solid lighten($yellow, 10%);
+    padding: 0.75rem;
+}
+
+.parameters-title-holder.put {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: white;
+    min-height: 4rem;
+    border-right: .1em solid lighten($yellow, 10%);
+    border-left: .1em solid lighten($yellow, 10%);
+
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.parameters-title-holder.bottom-border.put {
+    border-bottom: .1em solid lighten($yellow, 10%);
+}

@@ -10,8 +10,8 @@ import promise from "redux-promise";
 export var configure = (intialState = {}) => {
     var reducers = combineReducers({
         body: bodyReducer,
-        url: urlReducer,
-        api: apiReducer
+        url: urlReducer
+        // api: apiReducer
     });
     var createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 

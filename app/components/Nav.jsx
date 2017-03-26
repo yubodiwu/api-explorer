@@ -24,7 +24,7 @@ class Nav extends Component {
                     </div>
 
                     {/* Collect the nav links, forms, and other content for toggling */}
-                    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    {/* <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
                             <input type="text" ref="url" className="form-control" placeholder="API route" onChange={() => {
                                 // this.props.dispatch(actions.changeUrl(this.refs.url.value))
@@ -37,7 +37,7 @@ class Nav extends Component {
                             </li>
                             <li></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         );

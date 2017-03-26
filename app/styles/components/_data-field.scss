@@ -1,0 +1,15 @@
+.data-field-action {
+    margin-bottom: 1rem;
+}
+
+.data-field-action.api-request-made {
+    margin-bottom: 0rem;
+    border-bottom: 0rem;
+}
+
+.data-field-parameters-holder {
+    margin-left: 2rem;
+    padding: 1rem;
+    background-color: lighten(grey, 30%);
+    border-radius: 2rem;
+}

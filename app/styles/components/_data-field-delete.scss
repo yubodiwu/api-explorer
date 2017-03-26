@@ -1,0 +1,64 @@
+.data-field.delete {
+    background-color: lighten($red, 40%);
+    border-top: .1em solid lighten($red, 10%);
+    border-right: .1em solid lighten($red, 10%);
+    border-left: .1em solid lighten($red, 10%);
+    padding: 0.75rem;
+
+    display: flex;
+    align-items: baseline;
+
+    .btn {
+        background-color: $red;
+    }
+
+    h4, p {
+        color: lighten($grey, 20%);
+    }
+
+    * {
+        margin-right: 2rem;
+    }
+}
+
+.data-field.delete.clicked {
+    border-bottom: .1em solid lighten($red, 10%);
+    margin-bottom: 1rem;
+}
+
+.data-field-action {
+    margin-bottom: 1rem;
+}
+
+.data-field-action.delete.api-request-made {
+    margin-bottom: 0rem;
+    border-bottom: 0rem;
+}
+
+.data-field-action.delete {
+    background-color: lighten($red, 40%);
+    border-bottom: .1em solid lighten($red, 10%);
+    border-right: .1em solid lighten($red, 10%);
+    border-left: .1em solid lighten($red, 10%);
+    padding: 0.75rem;
+}
+
+.parameters-title-holder.delete {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: white;
+    min-height: 4rem;
+    border-right: .1em solid lighten($red, 10%);
+    border-left: .1em solid lighten($red, 10%);
+
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.parameters-title-holder.bottom-border.delete {
+    border-bottom: .1em solid lighten($red, 10%);
+    margin-bottom: 1rem;
+}
