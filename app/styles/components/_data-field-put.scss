@@ -21,6 +21,10 @@
     }
 }
 
+.btn-put {
+    background-color: $yellow;
+}
+
 .data-field.put.clicked {
     border-bottom: .1em solid lighten($yellow, 10%);
     margin-bottom: 1rem;
